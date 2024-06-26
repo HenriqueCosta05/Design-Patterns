@@ -4,7 +4,7 @@
     "module": "CommonJS",
     "lib": ["ESNext", "DOM"],
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./",
     "removeComments": true,
     "noEmitOnError": true,
     "strict": true,
@@ -12,5 +12,5 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["./src"]
+  "include": ["**/src/**/*"]
 }
