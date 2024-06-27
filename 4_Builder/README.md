@@ -79,3 +79,18 @@
 
 ### Contras
 * O código final pode se tornar muito complexo.
+
+# Builder - Prática
+
+## Introdução
+Para maior entendimento sobre esse padrão de projeto criacional, aplicaremos os conceitos aprendidos por meio de um exemplo de sistema de delivery, em que os clientes pedem diferentes tipos de "pacotes" de comida - **MealBoxes**. 
+
+## Passo a Passo
+1. Criar interfaces ou classes abstratas (protocolos) que possuem operações comuns a todos os builders, como visto na imagem acima.
+
+2. Criar uma classe abstrata, contendo o construtor comum a todos os tipos de mealboxes, bem como métodos utilitários e comuns a todos os mealboxes. 
+
+3. Implementar ou extender esses protocolos, visando a criação de mealboxes, de acordo com os diferentes tipos de boxes existentes.
+
+4.  Testar a lógica de criação dos mealboxes.
+
