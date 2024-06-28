@@ -13,3 +13,4 @@ Esse repositório tem como objetivo principal armazenar os conhecimentos adquiri
 #### De Criação
 3. [Singleton](./3_Singleton/README.md)
 4. [Builder](./4_Builder/README.md)
+5. [Prototype](./5_Prototype/README.md)
