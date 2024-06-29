@@ -71,3 +71,7 @@
 ### Contras
 * Clonar objetos que têm referências para outros objetos pode ser super complexo.
 
+
+## Shallow Copy vs. Deep Copy
+* Quando queremos recriar um objeto ao "clonar" o seu prototype, devemos utilizar o deep copy. Caso não seja necessária a recriação do objeto, utilizamos shallow copy.
+
