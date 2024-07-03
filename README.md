@@ -15,3 +15,4 @@ Esse repositório tem como objetivo principal armazenar os conhecimentos adquiri
 4. [Builder](./4_Builder/README.md)
 5. [Prototype](./5_Prototype/README.md)
 6. [Factory Method](./6_Factory_Method/README.md)
+7. [Abstract Factory](./7_Abstract_Factory/README.md)
