@@ -16,3 +16,6 @@ Esse repositório tem como objetivo principal armazenar os conhecimentos adquiri
 5. [Prototype](./5_Prototype/README.md)
 6. [Factory Method](./6_Factory_Method/README.md)
 7. [Abstract Factory](./7_Abstract_Factory/README.md)
+
+#### De Estrutura
+8. [Composite](./8_Composite/README.md)
