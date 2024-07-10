@@ -19,3 +19,4 @@ Esse repositório tem como objetivo principal armazenar os conhecimentos adquiri
 
 #### De Estrutura
 8. [Composite](./8_Composite/README.md)
+9. [Adapter](./9_Adapter/README.md)
