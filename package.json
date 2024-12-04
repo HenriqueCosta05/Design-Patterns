@@ -17,6 +17,7 @@
     "typescript": "^5.5.2"
   },
   "dependencies": {
+    "design-patterns-typescript": "file:",
     "validator": "^13.12.0"
   }
 }
