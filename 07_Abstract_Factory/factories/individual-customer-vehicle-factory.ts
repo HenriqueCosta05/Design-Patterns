@@ -1,6 +1,6 @@
 import { IndividualCustomer, CustomerProtocol } from '../customer'
-import { CreateVehicleCustomerProtocol } from '../factories'
-import {VehicleProtocol, IndividualCar} from '../vehicle'
+import { CreateVehicleCustomerProtocol } from '.'
+import { VehicleProtocol, IndividualCar } from '../vehicle'
 
 export class IndividualCustomerVehicleFactory implements CreateVehicleCustomerProtocol {
     createCustomer(customerName: string): CustomerProtocol {
@@ -10,5 +10,5 @@ export class IndividualCustomerVehicleFactory implements CreateVehicleCustomerPr
         const customer = this.createCustomer(customerName)
         return new IndividualCar(carName, customer);
     }
-    
+
 }
